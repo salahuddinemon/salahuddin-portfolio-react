@@ -38,13 +38,13 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Blogs
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Portfolio
               </a>
             </li>
 
@@ -77,7 +77,6 @@ class Header extends Component {
             </Fade>
           </div>
         </div>
-
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             <i className="icon-down-circle"></i>

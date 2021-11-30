@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
   render() {
@@ -13,6 +14,18 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
+    function sendEmail(e){
+      e.preventDefault();
+
+    emailjs.sendForm('service_1kghzy4', 'template_mtehnik', e.target, 
+    'user_9dbyXFveRP1o0bKQzt6N1')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+    }
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
@@ -32,7 +45,7 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form onSubmit={sendEmail} action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -43,7 +56,7 @@ class Contact extends Component {
                       defaultValue=""
                       size="35"
                       id="contactName"
-                      name="contactName"
+                      name="name"
                       onChange={this.handleChange}
                     />
                   </div>
@@ -53,11 +66,11 @@ class Contact extends Component {
                       Email <span className="required">*</span>
                     </label>
                     <input
-                      type="text"
+                      type="email"
                       defaultValue=""
                       size="35"
                       id="contactEmail"
-                      name="contactEmail"
+                      name="email"
                       onChange={this.handleChange}
                     />
                   </div>
@@ -69,7 +82,7 @@ class Contact extends Component {
                       defaultValue=""
                       size="35"
                       id="contactSubject"
-                      name="contactSubject"
+                      name="subject"
                       onChange={this.handleChange}
                     />
                   </div>
@@ -79,10 +92,11 @@ class Contact extends Component {
                       Message <span className="required">*</span>
                     </label>
                     <textarea
+                    type= "text"
                       cols="50"
                       rows="15"
                       id="contactMessage"
-                      name="contactMessage"
+                      name="message"
                     ></textarea>
                   </div>
 
