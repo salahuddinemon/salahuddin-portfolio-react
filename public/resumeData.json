@@ -5,18 +5,18 @@
     "image":"profilepic.jpg",
     "bio":"As a Full Stack Developer, I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is HTML5, CSS3, Bootstrap, Tailwind CSS, JS, & ReactJS building small and medium web apps and coding interactive layouts. For some projects, I used MongoDB & Node.js for backend database collection.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "emonthex@gmail.com",
+    "phone": "+880 1731123010",
     "github":"https://github.com/salahuddinemon",
     "project":"https://drive.google.com/file/d/1KS72UAadTSwVbipNJom1QYYz7tdR1G6g/view?usp=sharing",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"895, Atla",
+      "city":"Brahmanbaria",
+      "state":"Chittagong",
+      "zip": "3400"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://my-porfolio-d7f57.web.app/",
+    "resumedownload":"https://drive.google.com/file/d/1KS72UAadTSwVbipNJom1QYYz7tdR1G6g/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
