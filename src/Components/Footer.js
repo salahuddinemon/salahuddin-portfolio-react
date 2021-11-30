@@ -16,16 +16,16 @@ class Footer extends Component {
     });
 
     return (
-      <footer>
+      <footer  style={{background: "#06082d"}}>
         <div className="row">
           <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 A S M Salahuddin</li>
+                <li style={{color: "gray"}}>&copy; Copyright 2021 A S M Salahuddin</li>
                 <li>
-                  Design by{" "}
+                  <span style={{color:"darkgoldenrod"}}>Designed by{" "}</span>
                   <a title="Styleshout" href="https://www.linkedin.com/in/salahuddinemon/">
                     Developer
                   </a>

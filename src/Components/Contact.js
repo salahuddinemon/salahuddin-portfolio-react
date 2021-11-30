@@ -93,8 +93,8 @@ class Contact extends Component {
                     </label>
                     <textarea
                     type= "text"
-                      cols="50"
-                      rows="15"
+                      cols="20"
+                      rows="5"
                       id="contactMessage"
                       name="message"
                     ></textarea>
@@ -132,8 +132,8 @@ class Contact extends Component {
               </div>
 
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
+                <h4 className="widget-title">Latest Blogs</h4>
+                <ul href="#blogs" id="blogs">
                   <li>
                     <span>
                       This is Photoshop's version of Lorem Ipsum. Proin gravida
