@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"A S M Salahuddin",
-    "description":"I am a Full Stack Developer and I use JavaScript & react to develop pages.",
+    "description":"A self-motivated IT professional with strong proficiency in ReactJS, JavaScript, Tailwind, Bootstrap, CSS3, HTML5, and especially mobile responsive web development alongside the ability in writing DRY and efficient code.",
     "image":"profilepic.jpg",
     "bio":"As a Full Stack Developer, I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is HTML5, CSS3, Bootstrap, Tailwind CSS, JS, & ReactJS building small and medium web apps and coding interactive layouts. For some projects, I used MongoDB & Node.js for backend database collection.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -67,7 +67,7 @@
         "company":"Super Cool Studio",
         "title":"Junior bug fixer",
         "years":"March 2017 - February 2018",
-        "description":"A self-motivated IT professional with strong proficiency in ReactJS, JavaScript, Tailwind, Bootstrap, CSS3, HTML5, and especially mobile responsive web development alongside the ability in writing DRY and efficient code." 
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
     "skills":[
@@ -92,76 +92,28 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Sunglass Hut",
+        "category":"A Sunglass E-commerce site",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://sunglass-assignment-client.web.app/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Travel & Tourism",
+        "category":"A Travel Service Website",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://tourism-travel-assignment.web.app/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Dental Clinic",
+        "category":"A Professional Dental Clinic",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://dental-clinic-assignment.web.app/"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
       }
     ]
   }
