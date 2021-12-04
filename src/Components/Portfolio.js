@@ -16,7 +16,7 @@ class Portfolio extends Component {
             <Zmage alt={projects.title} src={projectImage} />
             <div style={{ textAlign: "center", }}>{projects.title}</div>
             <div style={{ textAlign: "center"}}>{projects.category}</div>
-            <div style={{ textAlign: "center"}}><button style={{borderRadius:"50px", padding:"7px 13px 7px 13px"}}>View Details</button></div>            
+            <div style={{ textAlign: "center"}}><button style={{borderRadius:"50px", padding:"7px 13px 7px 13px"}}>View Details</button></div>          
           </div>
         </div>
       );

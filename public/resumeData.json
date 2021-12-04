@@ -110,10 +110,16 @@
         "url":"https://dental-clinic-assignment.web.app/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"American Eagle",
+        "category":"A Fashion House Site",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://ranga-store-fix-salahuddinemon.netlify.app/"
+      },
+      {
+        "title":"Books Archeive",
+        "category":"Books Archeive Site",
+        "image":"05.jpg",
+        "url":"https://open-library-assignment.netlify.app/"
       }
     ]
   }
